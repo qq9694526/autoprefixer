@@ -1,0 +1,18 @@
+.hotwords {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 15px;
+}
+
+.hotwords .item {
+	flex: 0 0 33.33%;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+.flex-wrapper {
+	display: flex;
+	padding: 0 15px;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,404 @@
+/*公用class*/
+
+#nav {
+	background-color: red;
+}
+
+.fp-tableCell {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+}
+
+.place4navbar {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 150px;
+	flex: 0 0 150px;
+	-webkit-flex: 0 0 150px;
+}
+
+.section .content {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+}
+
+.content .title-lg {
+	font-size: 28px;
+	line-height: 1.8;
+	color: #D34239;
+	margin-top: 4%;
+}
+
+.content .text-lg {
+	font-size: 18px;
+	line-height: 1.8;
+	color: #333;
+}
+
+.leftbr {
+	width: 30px;
+	height: 2px;
+	background-color: #D34239;
+	margin: 20px 0;
+}
+
+.centerbr {
+	width: 30px;
+	height: 2px;
+	background-color: #D34239;
+	margin: 20px auto 50px auto;
+}
+
+.fp-slidesNav ul li a span {
+	background: transparent;
+}
+
+
+/*banner*/
+
+#slide1 {
+	background-image: url('../img/banner-03.jpg');
+}
+
+#slide2 {
+	background-image: url('../img/banner-02.jpg');
+}
+
+#slide3 {
+	background-image: url('../img/banner-01.jpg');
+}
+
+.fp-controlArrow.fp-prev {
+	left: 8%;
+	width: 36px;
+	height: 63px;
+	border: none;
+	background-image: url(../img/icon/zuojiantou.png);
+	background-repeat: no-repeat;
+}
+
+.fp-controlArrow.fp-next {
+	right: 8%;
+	width: 36px;
+	height: 63px;
+	border: none;
+	background-image: url(../img/icon/youjiantou.png);
+	background-repeat: no-repeat;
+}
+
+.fp-controlArrow {
+	margin-top: -32px;
+}
+
+#slide1 .loadbtn a {
+	display: block;
+	width: 20%;
+	height: 150px;
+	position: absolute;
+	top: 15%;
+	left: 60%;
+}
+
+#slide2 .loadbtn a {
+	display: block;
+	width: 20%;
+	height: 150px;
+	position: absolute;
+	top: 52%;
+	left: 62%;
+}
+
+#slide3 .loadbtn a {
+	display: block;
+	width: 20%;
+	height: 150px;
+	position: absolute;
+	top: 63%;
+	left: 58%;
+}
+
+
+/*关于久久免单*/
+
+#content1 {
+	background-image: url(../img/bg-1.png);
+}
+
+#content1>.row {
+	margin-top: 5%;
+	text-align: left;
+}
+
+
+/*产品*/
+
+#content2 {
+	background-image: url(../img/bg-2.png);
+}
+
+#content2 .topwrap {
+	margin-top: 4%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#content2 .mainwrap {
+	display: block;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 100%;
+	flex: 0 1 100%;
+	-webkit-flex: 0 1 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+#content2 .mainwrap .item {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 50%;
+	flex: 0 1 50%;
+	margin-bottom: 30px;
+}
+
+#content2 .col-xs-2 {
+	padding-left: 0;
+}
+
+#content2 .row .col-xs-9 {
+	text-align: left;
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+#content2 .row .col-xs-9>div:first-child {
+	color: #D34239;
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+
+/*免费喝酒*/
+
+#content3 {
+	background-image: url(../img/bg-3.png);
+}
+
+
+/*品质好酒（轮播）*/
+
+#content4 {
+	background-image: url(../img/bg-4.png);
+}
+
+.swiper-container {
+	width: 1000px;
+	padding-right: 5px;
+	margin: 0 auto;
+}
+
+.swiper-slide {
+	min-height: 430px;
+	text-align: left;
+	font-size: 12px;
+	color: #000;
+	border-radius: 10px;
+	background-color: #fff;
+	overflow: hidden;
+	box-shadow: 2px 2px 2px #e6e6e6;
+	margin-bottom: 2px;
+}
+
+.swiper-slide .topimg {
+	display: block;
+	width: 100%;
+}
+
+.swiper-slide .name {
+	background-color: #ffcc00;
+	font-weight: 600;
+	padding: 5px 0 5px 10px;
+}
+
+.swiper-slide .desc {
+	padding: 10px;
+}
+
+.swiper-slide .bottomimg {
+	display: block;
+	width: 25%;
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	right: 0;
+	margin: 0 auto;
+}
+
+.swiper-button-next {
+	background-image: url('../img/icon/you.png');
+	right: 9%;
+	left: auto;
+	top: 25%;
+	width: 35px;
+	height: 35px;
+	background-size: 100% 100%;
+}
+
+.swiper-button-prev {
+	background-image: url('../img/icon/zuo.png');
+	left: 9%;
+	right: auto;
+	top: 25%;
+	width: 35px;
+	height: 35px;
+	background-size: 100% 100%;
+}
+
+.swiper-button-disabled {
+	opacity: .85;
+}
+
+
+/*保持联系*/
+
+#content5 {
+	background-image: url(../img/bg-4.png);
+	font-size: 18px;
+	color: #333;
+}
+
+#content5 .btnswrap {
+	text-align: center;
+	padding-top: 5%;
+	/*padding-bottom: 10%;*/
+	/*border-bottom: 2px solid #e6e6e6;*/
+}
+
+.btnswrap .item {
+	text-align: center;
+	cursor: pointer;
+	padding: 0 5% 10% 5%;
+	border-bottom: 2px solid #e6e6e6;
+}
+
+.btnswrap .item>div {
+	white-space: nowrap;
+}
+
+.btnswrap .item img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.dialog {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 28%;
+	height: 250px;
+	margin: auto;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: left;
+	padding: 50px 50px;
+}
+
+.dialog_title {
+	font-size: 18px;
+	color: #D34239;
+	margin-bottom: 15px;
+}
+
+.dialog_content {
+	font-size: 16px;
+	color: #333;
+}
+
+.dialog_cancle {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	color: #ccc;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+.weixinwrap {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.weixinwrap .qrcode {
+	display: inline-block;
+	/*width: 40%;*/
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+
+.weixinwrap .qrcode img {
+	width: 100%;
+}
+
+.weixinwrap .qrcontent {
+	display: inline-block;
+	text-align: left;
+	color: #D34239;
+	font-size: 16px;
+}
+
+
+/*关注下载*/
+
+#content6 {
+	background-image: url(../img/bg-5.png);
+	position: relative;
+	font-size: 14px;
+	color: #333;
+}
+
+#content6 .imgwrap1 {
+	position: absolute;
+	left: 50%;
+	top: 35%;
+	width: 10%;
+	text-align: center;
+}
+
+#content6 .imgwrap2 {
+	position: absolute;
+	left: 65%;
+	top: 35%;
+	width: 10%;
+	text-align: center;
+}
+
+#content6 .imgwrap img {
+	display: block;
+	width: 100%;
+}

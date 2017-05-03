@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
 	autoprefixer = require('gulp-autoprefixer');
 
-gulp.task('testAutoFx', function() {
+gulp.task('default', function() {
 	gulp.src('dev/index.css')
 		.pipe(autoprefixer({
 			browsers: ['last 2 versions', 'Android >= 4.0'],
